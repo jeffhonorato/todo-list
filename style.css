@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.todo {
+    height: 100vh;
+    background-color: #533A71;
+}
+
+.todo__titulo--principal {
+    font-size: 5rem;
+    color: #fff;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+.todo__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.todo__input {
+    padding: 1rem;
+    width: 500px;
+    border: 0;
+    border-bottom: 4px solid #000;
+    border-radius: 10px;
+    background-color: #533A71;
+    color: #fff;
+    outline: 0;
+    font-size: 2rem;
+}
+
+.todo__bnt--adicionar {
+    display: block;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 5px 0px 0px 0px #FF7F11;
+    width: 200px;
+    cursor: pointer;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+}
+
+.todo__bnt--adicionar:hover {
+    background-color: #FF7F11;
+    transition: all .5s;
+    color: #000;
+    font-weight: 800;
+    box-shadow: 5px 0px 0px 0px #FFF;
+}
+
+.todo__tarefas {
+    margin: 4rem 2rem;
+}
+
+.todo__tarefas--h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.todo__tarefas--box {
+    padding: 1rem;
+    border: 2px solid #fff;
+    margin-top: 2rem;
+}
