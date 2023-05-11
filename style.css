@@ -71,6 +71,40 @@
 
 .todo__tarefas--box {
     padding: 1rem;
-    border: 2px solid #fff;
+    border: 2px solid #FF7F11;
+    border-radius: 10px;
     margin-top: 2rem;
+}
+
+.todo__tarefa {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 10px 1fr 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.todo__checkbox {
+    width: 25px;
+    height: 25px;
+}
+
+.todo__tarefa--nome {
+    font-size: 2rem;
+    color: #FF7F11;
+    margin-left: 1rem;
+}
+
+.todo__tarefa--btn {
+    cursor: pointer;
+    background-color: #ff3a3a;
+    color: #FFF;
+    font-size: 2rem;
+    padding: .4rem;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.todo__tarefa--btn:hover {
+    background-color: #FF7F11;
 }
