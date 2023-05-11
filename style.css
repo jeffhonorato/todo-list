@@ -82,6 +82,13 @@
     grid-template-columns: 10px 1fr 60px;
     align-items: center;
     justify-content: space-around;
+    padding: .4rem;
+    border-radius: 10px;
+}
+
+.todo__tarefa:hover {
+    background-color: rgba(156, 156, 156, 0.3);
+    transition: all .3s;
 }
 
 .todo__checkbox {
