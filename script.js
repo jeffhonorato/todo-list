@@ -17,15 +17,3 @@ const criarItem = () => {
 }
 
 criarItem()
-
-
-
-
-
-
-
-
-
-{/* <div class="todo__tarefa">
-    
-</div> */}
