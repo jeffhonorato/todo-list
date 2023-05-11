@@ -3,6 +3,7 @@ const criarItem = () => {
     btnAdicionar.addEventListener("click", () => {
         const input = document.querySelector(".js-input");
         const inputTarefa = input.value;
+
         const item = document.createElement("div");
         item.classList.add("todo__tarefa");
         item.innerHTML = `
@@ -11,7 +12,7 @@ const criarItem = () => {
         <button class="todo__tarefa--btn">X</button>
     `
     const tarefa = document.querySelector(".js-todo-tarefas");
-    tarefa.appendChild(item);
+        tarefa.appendChild(item);
     });
 }
 
