@@ -1,5 +1,5 @@
 const totalDeTarefas = [];
-const indexBtnFechar = 0;
+const indexBtnFechar =+ 0;
 
 const criarItem = () => {
     const btnAdicionar = document.querySelector(".js-btn-adicionar");
